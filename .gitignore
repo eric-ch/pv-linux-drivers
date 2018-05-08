@@ -9,3 +9,4 @@
 modules.order
 Module.symvers
 .tmp_versions/
+.cache.mk
