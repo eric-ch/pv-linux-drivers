@@ -1,1 +1,4 @@
-obj-m += openxt-vusb.o 
+obj-m := openxt-vusb.o
+
+ccflags-y := -I$(src)/include
+ccflags-$(CONFIG_VUSB_DEBUG) += -fno-omit-frame-pointer
